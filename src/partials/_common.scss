@@ -1,0 +1,37 @@
+// RESET
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: $font_color;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+//container
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+@media all and (max-width: $small_bp) {
+    .container {
+        width: 95%;
+    }
+}
+
+.title {
+    font-size: $font_size_title;
+}
+
+.small-text {
+    font-size: $small_font_size;
+}
+
