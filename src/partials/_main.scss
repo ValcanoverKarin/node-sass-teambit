@@ -26,6 +26,7 @@ main {
                     background-color: $btn_color;
                     color: #fff;
                     font-size: $small_font_size;
+                    cursor: pointer;
                     
                     img {
                         @include header_img_btn;

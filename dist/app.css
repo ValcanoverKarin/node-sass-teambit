@@ -113,6 +113,7 @@ main .container .teaser .link .btn {
   background-color: #2e4790;
   color: #fff;
   font-size: 9px;
+  cursor: pointer;
 }
 main .container .teaser .link .btn img {
   height: 13px;
