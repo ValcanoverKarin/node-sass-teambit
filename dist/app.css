@@ -21,7 +21,7 @@ img {
 
 @media all and (max-width: 600px) {
   .container {
-    width: 95%;
+    width: 80%;
   }
 }
 .title {

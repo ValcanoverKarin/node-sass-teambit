@@ -21,9 +21,9 @@ img {
     margin: auto;
 }
 
-@media all and (max-width: $small_bp) {
+@media all and (max-width: $smartphone-size) {
     .container {
-        width: 95%;
+        width: 80%;
     }
 }
 
