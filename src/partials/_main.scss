@@ -43,12 +43,19 @@
 }
 
 
-.traditional-processes {
+.traditional-processes, .teambit-processes {
     background-color: $primary_color;
 
+    .split {
+        border-bottom: 0.5px solid $font_color;
+    }
 }
 
-
+.teambit-processes {
+    .small-text{
+        margin-bottom: 10px;
+    }
+}
 
 @media all and (max-width: $smartphone-size) {
     main {
@@ -71,6 +78,15 @@
                 }
             }
             
+        }
+
+        .traditional-processes, .teambit-processes{
+
+            h4{
+                width: 75%;
+                text-align: center;
+                margin: auto;
+            }
         }
     }
 }
