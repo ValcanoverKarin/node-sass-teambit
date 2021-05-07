@@ -30,6 +30,10 @@ img {
     padding: 30px 0;
 }
 
+.container-big {
+    width: 95%;
+}
+
 @media all and (max-width: $smartphone-size) {
     .container {
         width: 80%;
@@ -38,6 +42,18 @@ img {
 
 .title {
     font-size: $font_size_title;
+}
+
+.btn {
+    @include main_menu_btn;
+    background-color: $btn_color;
+    color: #fff;
+    font-size: $small_font_size;
+    cursor: pointer;
+    
+    img {
+        @include header_img_btn;
+    }
 }
 
 .small-text {
