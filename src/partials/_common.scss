@@ -31,7 +31,8 @@ img {
 }
 
 .container-big {
-    width: 95%;
+    width: 100%;
+    margin: auto;
 }
 
 @media all and (max-width: $smartphone-size) {
@@ -40,10 +41,7 @@ img {
     }
 }
 
-.title {
-    font-size: $font_size_title;
-}
-
+//bottoni
 .btn {
     @include main_menu_btn;
     background-color: $btn_color;
@@ -56,10 +54,21 @@ img {
     }
 }
 
+//testo
+.title {
+    font-size: $font_size_title;
+}
+
+p {
+    margin-bottom: 30px;
+    font-size: $medium_font_size;
+}
+
 .small-text {
     font-size: $small_font_size;
 }
 
+//immagini sezione rosa main
 .three-img{
     display: flex;
     justify-content: space-around;
