@@ -17,6 +17,15 @@ img {
 .container {
   width: 80%;
   margin: auto;
+  display: flex;
+  padding: 30px 0;
+}
+
+.container-small {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 30px 0;
 }
 
 @media all and (max-width: 600px) {
@@ -85,26 +94,22 @@ header .container .burger {
     font-size: 20px;
   }
 }
-main .container {
-  display: flex;
-  padding: 30px 0;
-}
-main .container .teaser {
+.jumbotron .teaser {
   width: 55%;
 }
-main .container .teaser h1 {
+.jumbotron .teaser h1 {
   margin-bottom: 6px;
 }
-main .container .teaser p {
+.jumbotron .teaser p {
   margin-bottom: 30px;
   font-size: 13px;
 }
-main .container .teaser .link {
+.jumbotron .teaser .link {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
-main .container .teaser .link .btn {
+.jumbotron .teaser .link .btn {
   padding: 3px 5px;
   border: 0px;
   border-radius: 3px;
@@ -115,14 +120,34 @@ main .container .teaser .link .btn {
   font-size: 9px;
   cursor: pointer;
 }
-main .container .teaser .link .btn img {
+.jumbotron .teaser .link .btn img {
   height: 13px;
   width: 13px;
   margin-right: 3px;
 }
-main .container .teaser .link span {
+.jumbotron .teaser .link span {
   margin: 0 5px;
 }
-main .container .jumbo-img {
+.jumbotron .jumbo-img {
   width: 55%;
+}
+
+.traditional-processes {
+  background-color: #ffe7d2;
+}
+
+@media all and (max-width: 600px) {
+  main .jumbotron .container {
+    flex-wrap: wrap;
+  }
+  main .jumbotron .container .teaser {
+    width: 100%;
+    text-align: center;
+  }
+  main .jumbotron .container .teaser .link {
+    justify-content: center;
+  }
+  main .jumbotron .container .jumbo-img {
+    width: 100%;
+  }
 }
